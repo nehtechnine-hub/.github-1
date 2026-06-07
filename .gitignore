@@ -1,0 +1,8 @@
+# Ignore build outputs
+.gradle
+/local.properties
+/.idea
+/build
+**/build
+*.iml
+/.cxx
