@@ -1,0 +1,16 @@
+:root { --accent: #2563eb; --bg: #f9fafb; --card: #ffffff; }
+body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 0; padding: 1.5rem; background: var(--bg); color: #111827; }
+.container { max-width: 900px; margin: 0 auto; }
+.controls { display:flex; gap:0.5rem; margin-bottom:1rem; }
+.controls input { flex:1; padding:0.6rem; border-radius:6px; border:1px solid #e5e7eb; }
+.controls button { padding:0.6rem 0.9rem; border-radius:6px; border:0; background:var(--accent); color:white; cursor:pointer; }
+.card { background:var(--card); padding:1rem; border-radius:10px; box-shadow:0 1px 4px rgba(2,6,23,0.06); margin-bottom:1rem; display:flex; align-items:center; }
+.row { display:flex; align-items:center; gap:1rem; width:100%; }
+.title { font-weight:700; font-size:1.2rem; }
+.desc { color:#374151; text-transform:capitalize; }
+.temp { margin-left:auto; text-align:right; }
+.big { font-size:1.8rem; font-weight:700; }
+.forecast { display:flex; gap:0.5rem; flex-wrap:wrap; }
+.forecast-item { background:white; padding:0.5rem 0.75rem; border-radius:8px; width:140px; text-align:center; box-shadow:0 1px 3px rgba(2,6,23,0.04); }
+.error { color:#b91c1c; margin-bottom:0.5rem; }
+.info { color:#374151; margin-bottom:0.5rem; }
